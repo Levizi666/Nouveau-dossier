@@ -198,3 +198,84 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+/* MOBILE OPTIMISATION */
+@media (max-width: 768px) {
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 10px;
+        font-size: 14px;
+    }
+
+    /* HERO */
+    .hero {
+        height: 70vh;
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 22px;
+    }
+
+    .hero-content {
+        padding: 20px;
+    }
+
+    /* SECTIONS */
+    .section {
+        padding: 30px 15px;
+    }
+
+    .section h2 {
+        font-size: 20px;
+    }
+
+    /* GRID → COLONNE */
+    .grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    /* FORM */
+    .form {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .form input,
+    .form select,
+    .form textarea {
+        font-size: 16px;
+    }
+
+    /* BOUTON */
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* WHATSAPP */
+    .whatsapp {
+        bottom: 15px;
+        right: 15px;
+        font-size: 20px;
+        padding: 12px;
+    }
+button, a {
+    -webkit-tap-highlight-color: transparent;
+}
